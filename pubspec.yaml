@@ -1,0 +1,39 @@
+name: inspiration_app
+description: "A new Flutter project for recording daily inspirations."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  # 本地存储
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  # 状态管理
+  provider: ^6.1.2
+  # 工具
+  uuid: ^4.4.2
+  # 图片选择（Web兼容）
+  image_picker: ^1.1.2
+  # 响应式布局
+  responsive_builder: ^0.7.1
+  # 音频播放
+  audioplayers: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.9
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/quotes.json
+    - assets/audio/

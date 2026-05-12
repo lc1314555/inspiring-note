@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(flutter analyze:*)",
+      "Bash(flutter run:*)",
+      "Bash(pkill -f \"flutter.*chrome\")",
+      "Bash(flutter build:*)",
+      "Bash(lsof -ti:8080)",
+      "Bash(xargs kill:*)",
+      "Bash(python3 -m http.server 8080 --directory build/web)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8080)",
+      "Bash(flutter clean:*)",
+      "Bash(flutter pub:*)",
+      "Bash(nohup python3:*)",
+      "Bash(pkill -f \"flutter run -d chrome\")",
+      "Bash(pkill -f \"flutter_tools_chrome_device\")",
+      "WebSearch",
+      "Bash(curl:*)",
+      "Bash(flutter doctor:*)"
+    ]
+  }
+}
