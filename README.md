@@ -6,7 +6,7 @@
 
 ## 在线体验
 
-访问演示站点：[GitHub Pages](https://your-username.github.io/inspiration-app)
+访问演示站点：[GitHub Pages](https://your-username.github.io/inspiration-app)暂未开通
 
 ## 功能特性
 
@@ -23,12 +23,22 @@
 - **治愈语录** — 每日灵感签，带来一丝温暖与启发
 - **本地存储** — 基于 Hive 的无数据库方案，数据完全本地化
 
-## 界面预览
+## 界面功能预览
 
-| 首页时间线 | 编辑器 | 设置页 |
-|:---:|:---:|:---:|
-| 📱 | ✏️ | ⚙️ |
-
+首页开屏界面---心流屋简介
+![首页开屏界面](./assets/images/首屏.png)
+灵感火花界面---记录你的每一个想法
+![灵感火花界面](./assets/images/灵感火花.png)
+今日印记界面---记录生活中的小确幸
+![今日印记界面](./assets/images/今日印记记录.png)
+真实情绪界面---安放你的每一种情绪
+![真实情绪界面](./assets/images/真实情绪.png)
+设置界面
+![设置界面](./assets/images/设置.png)
+主题选择---莫兰迪色系
+![主题](./assets/images/主题.png)
+检索功能---可按日期检索
+![日期检索](./assets/images/日期检索.png)
 ## 快速开始
 
 ### 环境要求
